@@ -4,7 +4,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Hello world!"
+    "Hello world！This is written in rust。"
 }
 
 fn main() {
